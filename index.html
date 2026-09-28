@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codex Usage Monitor — Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for the Codex Usage Monitor browser extension.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --fg: #111827;
+      --muted: #4b5563;
+      --card: #f8fafc;
+      --border: #e5e7eb;
+      --accent: #0f766e;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1020;
+        --fg: #f3f4f6;
+        --muted: #cbd5e1;
+        --card: #111827;
+        --border: #263244;
+        --accent: #5eead4;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.65 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 24px 64px;
+    }
+    h1 { font-size: 2rem; line-height: 1.2; margin-bottom: 8px; }
+    h2 { margin-top: 2rem; font-size: 1.25rem; }
+    p, li { color: var(--muted); }
+    .summary {
+      margin: 24px 0;
+      padding: 18px 20px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--card);
+    }
+    strong { color: var(--fg); }
+    .updated { margin-top: 0; color: var(--muted); }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Codex Usage Monitor — Privacy Policy</h1>
+    <p class="updated"><strong>Last updated:</strong> September 27, 2026</p>
+
+    <div class="summary">
+      <strong>Summary:</strong> Codex Usage Monitor processes the user's ChatGPT Usage information locally in the browser. It does not send usage data to the developer or to an external backend, and it does not use telemetry, analytics, advertising, or tracking.
+    </div>
+
+    <h2>1. What the extension reads</h2>
+    <p>
+      Codex Usage Monitor reads only the information needed from the user's ChatGPT Usage page to provide its monitoring features. This may include the displayed 5-hour and Weekly usage limits, remaining percentages, and reset timing information when available.
+    </p>
+    <p>
+      The extension does not read ChatGPT conversations, personal messages, passwords, authentication tokens, payment information, or location data.
+    </p>
+
+    <h2>2. How the information is used</h2>
+    <p>
+      The information read from the ChatGPT Usage page is used only to:
+    </p>
+    <ul>
+      <li>display the user's current Codex usage status;</li>
+      <li>perform automatic or manual usage checks;</li>
+      <li>show local quota-threshold or replenishment notifications; and</li>
+      <li>maintain the extension's local operational state.</li>
+    </ul>
+
+    <h2>3. Local storage</h2>
+    <p>
+      The extension stores its settings and limited operational state in browser extension storage. This may include the selected check interval, pause/resume state, last validated usage status, and alert state needed to avoid duplicate notifications.
+    </p>
+    <p>
+      This locally stored information is not transmitted to the developer or to an external backend.
+    </p>
+
+    <h2>4. Data transmission and sharing</h2>
+    <p>
+      Codex Usage Monitor has no developer-operated backend and does not transmit usage data to the developer. It does not sell, transfer, or share user data with third parties for advertising, analytics, profiling, creditworthiness, lending, or unrelated purposes.
+    </p>
+    <p>
+      When the extension opens or reloads the normal ChatGPT Usage page, the user's browser communicates with ChatGPT/OpenAI as part of loading that website. This is normal website traffic between the user and ChatGPT/OpenAI and is not data sent to the developer of Codex Usage Monitor.
+    </p>
+
+    <h2>5. Notifications</h2>
+    <p>
+      If enabled by the user and permitted by the browser or operating system, the extension may display local notifications containing usage-related information. These notifications are generated on the user's device.
+    </p>
+
+    <h2>6. Retention and deletion</h2>
+    <p>
+      Extension settings and operational state remain in the browser's extension storage until they are cleared or the extension is removed. Codex Usage Monitor does not maintain a separate server-side copy of this information.
+    </p>
+
+    <h2>7. Changes to this policy</h2>
+    <p>
+      This policy may be updated if the extension's behavior or data practices change. The “Last updated” date at the top of this page will be revised when material changes are made.
+    </p>
+
+    <h2>8. Contact</h2>
+    <p>
+      For questions about this privacy policy or the extension's privacy practices, please use the support channel provided on the Codex Usage Monitor Chrome Web Store listing.
+    </p>
+
+    <footer>
+      Codex Usage Monitor is an independent browser extension and is not affiliated with or endorsed by OpenAI.
+    </footer>
+  </main>
+</body>
+</html>
